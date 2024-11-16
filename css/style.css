@@ -1,0 +1,95 @@
+body {
+    background-color: #272B30;
+    color: white;
+}
+.bg-img {
+    background:  linear-gradient(rgba(39, 43, 48, 0.8) 0% 100%),url('../images/Screenshot\ 2024-08-29\ 225624.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+}
+.navbar {
+    background-color: #3A497B;
+    border-radius: 20px;
+}
+.nav-link {
+    text-transform: uppercase;
+}
+.nav-img {
+    background-image: url("../images/logo-sm.png");
+    background-size: cover;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+}
+.navbar h5 {
+    font-size: 25px;
+    line-height: 24px;
+    margin: 0px 16px 0px 0px;
+    padding: 5px 0px;
+    font-weight: 600;
+    color: white;
+}
+.navbar h5:hover {
+    color: black !important;
+}
+.nav-link:hover {
+    color: #0098C9 !important;
+}
+
+
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 8px solid;
+    border-color: #000 #0000;
+    animation: l1 1s infinite;
+  }
+  @keyframes l1 {to{transform: rotate(.5turn)}}
+  
+
+
+.card {
+    background-color: #272B30;
+    width: 300px;
+    height: 350px;
+    font-size: 15px;
+    border: solid 1px rgb(38, 37, 37);
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    text-decoration: none;
+}
+hr {
+    margin: 0;
+    padding: 0;
+    color: black
+}
+.card-body {
+    padding: 0;
+    height: 130px;
+    overflow: hidden;
+}
+.badge {
+    height: 25px;
+    background-color: #32383E;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card img {
+    width: 100%;
+    display: block;
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
+.card:hover img {
+    opacity: 1;
+}
+a{
+    text-decoration: none;
+}
